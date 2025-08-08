@@ -66,14 +66,14 @@ namespace WorkerService1
 
                     string sResult = DateTime.Now.ToString("yyyyMMddHHmmssfff") + new Random().Next(0, 999).ToString("D3");
 
-                    string url = "https://wa.bisplindia.in/api/method/frappe_whatsapp.whatsapp_chat.send_outgoing_text_message";
+                    string url = "https://vadic.waflow.in/api/method/frappe_whatsapp.whatsapp_chat.send_outgoing_text_message";
                     string jsonData = $"{{\"mobile_no\": \"{mobl}\", \"message\": \"{msg}\"}}";
 
                     await LogRequest(sResult, url, jsonData);
 
                     using (HttpClient client = new HttpClient())
                     {
-                        client.DefaultRequestHeaders.Add("Authorization", "token b246f118c913831:64827093075409a");
+                        client.DefaultRequestHeaders.Add("Authorization", "token 5c121710d22700d:d2c4aaa33d04aa5");
 
                         StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
 
