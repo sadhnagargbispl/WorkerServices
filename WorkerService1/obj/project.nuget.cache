@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7/FhF3x7ZHQ=",
+  "dgSpecHash": "IUuxblxj3QQ=",
   "success": true,
-  "projectFilePath": "E:\\Sadhna Garg\\GithubCore\\WorkerService1\\WorkerService1\\WorkerService1.csproj",
+  "projectFilePath": "E:\\Sadhna Garg\\GithubCore\\WorkerServices\\WorkerService1\\WorkerService1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\aspire.microsoft.data.sqlclient\\9.4.0\\aspire.microsoft.data.sqlclient.9.4.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\9.0.0\\aspnetcore.healthchecks.sqlserver.9.0.0.nupkg.sha512",
